@@ -20,4 +20,5 @@ requires:
   Data::Dump::Streamer: 0
   JSON::XS: 0
   PadWalker: 0
-version: 0.002
+  URI::Escape: 0
+version: 0.003

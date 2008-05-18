@@ -7,13 +7,15 @@ package Module::Install::AutoManifest;
 use Module::Install::Base;
 
 BEGIN {
-  our $VERSION = '0.001';
+  our $VERSION = '0.002';
   our $ISCORE  = 1;
   our @ISA     = qw(Module::Install::Base);
 }
 
 sub auto_manifest {
   my ($self) = @_;
+
+  return unless $Module::Install::AUTHOR;
 
   die "auto_manifest requested, but no MANIFEST.SKIP exists\n"
     unless -e "MANIFEST.SKIP";
@@ -36,8 +38,8 @@ END
 1;
 __END__
 
-#line 46
+#line 48
 
-#line 129
+#line 131
 
 1; # End of Module::Install::AutoManifest

@@ -10,6 +10,7 @@ build_requires 'Test::Deep';
 requires 'JSON::XS';
 requires 'Data::Dump::Streamer';
 requires 'PadWalker';
+requires 'URI::Escape';
 
 install_script <script/*>;
 
