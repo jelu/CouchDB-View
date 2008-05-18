@@ -3,7 +3,7 @@ use warnings;
 
 package CouchDB::View;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 1;
 __END__
@@ -14,7 +14,7 @@ CouchDB::View - handle and create CouchDB views in Perl
 
 =head1 VERSION
 
-Version 0.001
+Version 0.002
 
 =head1 DESCRIPTION
 

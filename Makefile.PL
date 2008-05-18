@@ -9,6 +9,7 @@ build_requires 'Test::Deep';
 
 requires 'JSON::XS';
 requires 'Data::Dump::Streamer';
+requires 'PadWalker';
 
 install_script <script/*>;
 
