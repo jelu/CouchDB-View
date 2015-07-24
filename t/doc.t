@@ -23,8 +23,8 @@ is_deeply(
       test => <<'',
 do { my $CODE1; $CODE1 = sub {
            use warnings;
-           use strict 'refs';
-           dmap(undef, shift @_);
+           use strict;
+           dmap(undef, shift());
          }; $CODE1 }
 
     },
