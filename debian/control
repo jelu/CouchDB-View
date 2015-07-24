@@ -9,7 +9,8 @@ Build-Depends-Indep:
  libjson-xs-perl,
  libdata-dump-streamer-perl,
  libpadwalker-perl,
- libtest-deep-perl
+ libtest-deep-perl,
+ liburi-perl
 Standards-Version: 3.9.4
 
 Package: libcouchdb-view-perl
@@ -20,5 +21,6 @@ Depends:
  libjson-xs-perl,
  libdata-dump-streamer-perl,
  libpadwalker-perl,
+ liburi-perl
 Description: handle and create CouchDB views in Perl
  CouchDB::View - handle and create CouchDB views in Perl
