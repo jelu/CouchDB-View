@@ -1,0 +1,24 @@
+Source: libcouchdb-view-perl
+Section: perl
+Priority: optional
+Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
+Build-Depends:
+ debhelper (>= 8.0.0)
+Build-Depends-Indep:
+ perl,
+ libjson-xs-perl,
+ libdata-dump-streamer-perl,
+ libpadwalker-perl,
+ libtest-deep-perl
+Standards-Version: 3.9.4
+
+Package: libcouchdb-view-perl
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${perl:Depends},
+ libjson-xs-perl,
+ libdata-dump-streamer-perl,
+ libpadwalker-perl,
+Description: handle and create CouchDB views in Perl
+ CouchDB::View - handle and create CouchDB views in Perl
