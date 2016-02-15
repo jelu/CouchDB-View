@@ -1,3 +1,9 @@
+libcouchdb-view-perl (0.003-2~unstable-1) unstable; urgency=low
+
+  * Fix test for Perl older then 5.18.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Mon, 15 Feb 2016 13:49:54 +0100
+
 libcouchdb-view-perl (0.003-1~unstable-1) unstable; urgency=low
 
   * Initial upstream release.
