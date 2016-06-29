@@ -1,3 +1,9 @@
+libcouchdb-view-perl (0.003-4~unstable+1) unstable; urgency=low
+
+  * Remove source/format.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Wed, 29 Jun 2016 08:04:42 +0200
+
 libcouchdb-view-perl (0.003-3~unstable+1) unstable; urgency=low
 
   * Corrected package version format.
